@@ -521,7 +521,6 @@ sup {
 
 .members-human h4 {
   font-size: 20px;
-  margin-top: 150px;
   margin-bottom: 0;
 }
 
@@ -546,24 +545,22 @@ sup {
 .members-before0::before {
   width: 130px;
   height: 130px;
+  display: inline-block;
   content: "";
   background-repeat: no-repeat;
+  margin-top: 25px;
 }
 
 .members-before1::before {
-  background-position: 33px 33px;
   background-image: url(../img/member1.svg);
 }
 .members-before2::before {
-  background-position: 33px 33px;
   background-image: url(../img/member2.svg);
 }
 .members-before3::before {
-  background-position: 33px 33px;
   background-image: url(../img/member3.svg);
 }
 .members-before4::before {
-  background-position: 33px 33px;
   background-image: url(../img/member4.svg);
 }
 
